@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:lightseagreen;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+h1{
+    text-align: center;
+}
+.todo{
+    background-color: white;
+    margin: 50px auto;
+    width: 400px;;
+    padding: 10px 25px;
+}
+.todo input{
+    height: 30px;
+  background: lightgray;
+  border-radius: 10px;
+  margin: 10px 0;
+  width: 215px;
+}
+#add{
+    background: orangered;
+  padding: 5px;
+  border-radius: 13px;
+  width: 60px;
+  color: white;
+  font-weight: bold;
+}
+#clear{
+    background:red;
+    padding: 5px;
+    border-radius: 13px;
+    width: 60px;
+    color: white;
+    font-weight: bold;
+}
+#ul li{
+    margin: 15px 0;
+    position: relative;
+}
+#ul li button{
+    background-color: black;
+    padding: 5px;
+    border-radius: 13px;
+    width: 60px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 81%;
+}
